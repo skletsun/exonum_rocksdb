@@ -212,7 +212,7 @@ fn main() {
     }
 
     if !try_to_find_lib("librocksdb") {
-        get_local_src_if("rocksdb", "https://github.com/facebook/rocksdb.git", "d310e0f33977d4e297bf25a98eef79d1a02513d7");
+        get_local_src_if("rocksdb", "https://github.com/facebook/rocksdb.git", "16a5ac5b695c821ba03a6814090a445a52d488d5");
         build_rocksdb();
     }
 }
